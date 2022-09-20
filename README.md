@@ -83,14 +83,46 @@ Examples:
   </details><br>
  
 
-final thoughts: 
+
 
 - functions are the primary building blocks of programs
 - the code in a function does not execute until the function is called, however the code is checked for syntax errors when the script file is loaded. 
 - programming languages also include built in functions! for example <code>  .toUpperCase()  </code> as seen in the first example. 
+- To add to what we know, it is common practice for a function to call on other functions. 
+
+Example: 
+
+```js
+ let size, board;
+ 
+ function initialize() {
+   size = getBoardSize();
+   board = generateBoard(size);
+   renderBoard();
+ }
+ ```
+ 
+ ## ‼️ questions check point! 
 
  ## Okay i get what a function is, but why? 
  
+ 1. Functions allow us as developers to break up programs into more managable blocks of code.
+ 2. We can reuse functions because they can be called as many times as neccessary in a program. 
+ - for example, we may want to rerender the board based on changing data. 
+ 3. Functions help create DRY code by not repeating code in multiple places. "Don't Repeat Yourself"
+ 4.Using clear naming functions help with making readable and debuggable code. 
  
+ 
+❓Can Functions be called more than once?  
+<details>	
+    <summary>Answer...</summary>
+    <p><strong> Yes! this benifit offers dynamic and dry code. </strong></p>
+  </details><br>
+  
+ ❓I made a function named <code> function nums() </code>. This function is going to multiply two numbers. Is this function good naming convention?
+ <details>	
+    <summary>Answer...</summary>
+    <p><strong> A better naming convention would be something like <code>function multiplyTwoNums()</code>. This will help you know what the code is doing before reading the code block</strong></p>
+  </details><br>
  
  
