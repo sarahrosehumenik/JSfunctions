@@ -115,11 +115,6 @@ Example:
  4. Using clear naming functions help with making readable and debuggable code. 
  
  
-❓Can Functions be called more than once?  
-<details>	
-    <summary>Answer...</summary>
-    <p><strong> Yes! this benifit offers dynamic and dry code. </strong></p>
-  </details><br>
   
  ❓I made a function named <code> function nums() </code>. This function is going to multiply two numbers. Is this function good naming convention?
  <details>	
