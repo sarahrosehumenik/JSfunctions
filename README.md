@@ -106,7 +106,7 @@ Example:
  
  ## ‼️ questions check point! 
 
- ## Okay i get what a function is, but why? 
+ ## Okay i get what a function is but why? 
  
  1. Functions allow us as developers to break up programs into more managable blocks of code.
  2. We can reuse functions because they can be called as many times as neccessary in a program. 
